@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/rafaelmbcosta/liga-pge-nuxt.svg?style=svg)](https://circleci.com/gh/rafaelmbcosta/liga-pge-nuxt)
 <a href="https://codebeat.co/projects/github-com-rafaelmbcosta-liga-pge-nuxt-master"><img alt="codebeat badge" src="https://codebeat.co/badges/4a35eb1b-e5fd-4a2c-a411-cbcdc5a26364" /></a>
 
 # liga-pge
