@@ -8,12 +8,9 @@
 
 <script>
 export default {
-  created() {
-    console.log(this.$store)
-  },
   computed: {
     teste () {
-      return this.$store.getters.getTeste
+      return this.$store.state.months
     }
   }
 }

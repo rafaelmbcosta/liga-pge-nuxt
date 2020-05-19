@@ -3,6 +3,7 @@
     <v-flex class="text-center">
       Meses de Disputa
 
+      {{ months }}
       <ScoreList />
     </v-flex>
   </v-layout>
@@ -12,6 +13,15 @@
 import ScoreList from '@/components/scores/ScoreList'
 
 export default {
-  components: { ScoreList }
+  //replate to middleware
+  created () {
+    this.$store.dispatch('getDisputeMonths')
+  },
+  computed: {
+    months () {
+      this.$store.state.months
+    }
+  },
+  components: { ScoreList },
 }
 </script>
